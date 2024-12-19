@@ -27,7 +27,7 @@
               <a class="nav-link" href="#">EVENTOS</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">MUSICA</a>
+              <a class="nav-link" href="{{route('musica') }}">MUSICA</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="{{route('conciertos') }}">CONCIERTOS</a>

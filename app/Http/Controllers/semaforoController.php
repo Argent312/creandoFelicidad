@@ -10,4 +10,8 @@ class semaforoController extends Controller
     {
         return view('conciertos');
     }
+    public function musica()
+    {
+        return view('musica');
+    }
 }
