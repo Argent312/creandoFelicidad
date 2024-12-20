@@ -77,6 +77,9 @@ svg{
         p{
             text-align: center;
         }
+        h6{
+            text-align: justify;
+        }
     }
     
 }
@@ -126,4 +129,81 @@ svg{
     text-align: center;
     background: rgb(9,66,147);
     background: radial-gradient(circle, rgba(9,66,147,1) 61%, rgba(255,255,255,1) 100%);
+}
+
+/**Seccion de Eventos**/
+.eventos{
+    .head{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/imagenes/collage4.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: aliceblue;
+        padding: 15% 5% 2% 0%;
+        text-align: end;
+        h2{
+            font-size: 300%;
+        }
+        p{
+            font-size: 120%;
+        }
+    }
+    .body{
+        background-color: #c9c9c9;
+        padding: 2% 10%;
+    }
+    H3{
+        text-align: start;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .evento{
+        padding: 0% 2%;
+        background-color: aliceblue;
+        .imagen-evento{
+            text-align: end;
+        }
+    }
+
+
+    @media (min-width: 600px) and (max-width: 768px) {
+        img{
+            h2{
+                font-size: 180%;
+            }
+            p{
+                font-size: 60%;
+            }
+        }
+        .imagen-evento{
+            text-align: center;
+        }
+      }
+    @media (min-width: 320px) and (max-width: 480px) {
+        img{
+            width: 50%;
+            height: auto;
+        }
+        .imagen-evento{
+            text-align: center;
+        }
+    }
+
+
+    .evento-antes{
+        
+        text-align: center;
+        
+        h4{
+            text-align: center;
+            font-size: 100%;
+        }
+        time{
+            font-size: 70%;
+        }
+        .evento{
+            background-color: aliceblue;
+            padding: 1% 2%;
+            
+        }
+    }
 }

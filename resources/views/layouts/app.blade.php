@@ -24,7 +24,7 @@
               <a class="nav-link" href="{{route('welcome') }}">INICIO</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">EVENTOS</a>
+              <a class="nav-link" href="{{route('eventos') }}">EVENTOS</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="{{route('musica') }}">MUSICA</a>
